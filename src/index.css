@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Arial', 'Lucida Grande', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.start-button {
+
+    width: 350px;
+}
+
+.sidebar-div {
+    width: 300px;
+    height: 90vh;
+    float: left;
+    padding: 10px;
+}
+
+.diagram-div {
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.diagram-div > svg {
+    display: block;
+    margin: auto;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.diagram-code-textbox > div {
+    height: 90vh;
+}
+
+.diagram-code-textbox > div > textarea {
+    height: 100% !important;
+    white-space: nowrap !important;
+    overflow: auto !important;
+}
