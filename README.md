@@ -6,7 +6,7 @@ This is a Proof-of-Concept, that demonstrates the idea of converting human speec
 
 Today there are many beautiful tools and libraries, that implement the principle of *diagrams-as-code*. [Mermaid](https://github.com/mermaid-js/mermaid) is a great example of such library.
 
-This PoC takes a step further and, instead of typing the code of your diagram, it allows to **pronounce** it in plain English, line-by-line. Then it converts your phrases into [Mermaid](https://github.com/mermaid-js/mermaid) code, and then the code is rendered in form of a diagram.
+This PoC takes a step further and, instead of typing the code of your diagram, it allows to **pronounce** it in plain English, line by line. Then it converts your phrases into [Mermaid](https://github.com/mermaid-js/mermaid) code, and then the code is rendered in form of a diagram.
 [Azure Cognitive Services Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-to-text) is used to recognize the speech.
 
 The project here is a typical React SPA (Single-Page App) written in TypeScript and intended to be deployed as an [Azure Static Web App](https://docs.microsoft.com/en-us/azure/static-web-apps/overview).
