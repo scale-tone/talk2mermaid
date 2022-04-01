@@ -17,7 +17,7 @@ https://green-dune-06f281403.1.azurestaticapps.net/
 
 ## How to use
 
-* Open the app in your browser (either by using the live demo, deploying your own copy to Azure or running it locally on your devbox).
+* Open the app in your browser (either by using the [live demo](https://github.com/scale-tone/talk2mermaid/blob/master/README.md#live-demo), [deploying your own copy to Azure](https://github.com/scale-tone/talk2mermaid/blob/master/README.md#how-run-deploy-to-azure) or [running it locally on your devbox](https://github.com/scale-tone/talk2mermaid/blob/master/README.md#how-run-locally)).
 * Press 'Start Recognizing'.
 * Allow the page to use your microphone, if the page asks for that permission.
 * **Pronounce** the diagram type you'd like to create. So far the following are supported:
