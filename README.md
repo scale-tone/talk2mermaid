@@ -66,3 +66,18 @@ https://green-dune-06f281403.1.azurestaticapps.net/
   * **'Loop NonStop, Charlie sends Charlie a message: "Thinking", Loop End'** (defines a message to self wrapped with a loop): 
 
      <img src="https://user-images.githubusercontent.com/5447190/161322405-f2deb073-3baf-4a60-9e39-9ffd27b72a9d.png" width=200px/>
+
+## How run locally
+
+1. Clone the sources onto your devbox.
+2. Get yourself an [Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-to-text) instance.
+3. Update the `CognitiveServicesSubscriptionKey` and `CognitiveServicesRegion` settings in [/api/local.settings.json](https://github.com/scale-tone/talk2mermaid/blob/master/api/local.settings.json#L7) file with your values.
+4. Make sure the subscription key will never be committed.
+5. Go to the [project root folder](https://github.com/scale-tone/talk2mermaid) and execute this:
+
+    ```
+    npm install
+    npm run start-with-backend
+    ```
+    
+    The code will be compiled and started at http://localhost:3000. A browser tab with that page should open up automatically, but if not, then navigate to http://localhost:3000 with your browser.
