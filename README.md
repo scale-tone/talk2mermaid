@@ -81,3 +81,14 @@ https://green-dune-06f281403.1.azurestaticapps.net/
     ```
     
     The code will be compiled and started at http://localhost:3000. A browser tab with that page should open up automatically, but if not, then navigate to http://localhost:3000 with your browser.
+
+
+## How run deploy to Azure
+
+1. Fork this repo (cloning is not enough, because Static Web Apps deployment process needs write access to your GitHub repo).
+2. Create an Azure Static Web App instance and deploy your cloned code there with [any of the approaches described here](https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=react).
+3. Configure `CognitiveServicesSubscriptionKey` and `CognitiveServicesRegion` settings for your Static Web Apps instance:
+
+  <img src="https://user-images.githubusercontent.com/5447190/161324274-90c22da8-6bdc-4819-8063-fceb18e157fd.png" width=400px/>
+
+4. Navigate to the root page of your Static Web Apps instance.
