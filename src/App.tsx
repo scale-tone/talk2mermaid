@@ -2,7 +2,7 @@ import React from 'react';
 import { observer } from 'mobx-react';
 
 import {
-    AppBar, Box, Button, TextField, Toolbar, Typography
+    AppBar, Box, Button, TextField, Toolbar, Tooltip, Typography
 } from '@mui/material';
 
 import SaveIcon from '@mui/icons-material/Save';
@@ -26,7 +26,7 @@ export const App = observer(
 
                 } else {
 
-                    hint = `e.g. 'Flowchart' or 'Sequence Diagram'`;
+                    hint = `say e.g. 'Flowchart' or 'Sequence Diagram'`;
                 }
             }
 
@@ -41,15 +41,17 @@ export const App = observer(
 
                         <Box width={30} />
 
-                        <Button
-                            className="start-button"
-                            variant="outlined"
-                            color="secondary"
-                            size="large"
-                            onClick={() => state.startStopRecognizing()}
-                        >
-                            {!state.isRecognizing ? "Start" : "Stop"} Recognizing
-                        </Button>
+                        <Tooltip title="Press this to turn the recognition mode on. Once you do, the page might also ask you to allow access to microphone.">
+                            <Button
+                                className="start-button"
+                                variant="outlined"
+                                color="secondary"
+                                size="large"
+                                onClick={() => state.startStopRecognizing()}
+                            >
+                                {!state.isRecognizing ? "Start" : "Stop"} Recognizing
+                            </Button>
+                        </Tooltip>
 
                         <Box width={30} />
 
