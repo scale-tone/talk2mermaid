@@ -9,7 +9,7 @@ Today there are many beautiful tools and libraries, that implement the principle
 This PoC takes a step further and, instead of typing the code of your diagram, it allows to **pronounce** it in plain English, line-by-line. Then it converts your phrases into [Mermaid](https://github.com/mermaid-js/mermaid) code, and then the code is rendered in form of a diagram.
 [Azure Cognitive Services Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-to-text) is used to recognize the speech.
 
-The code is a typical React SPA (Single-Page App) written in TypeScript and intended to be deployed as an [Azure Static Web App](https://docs.microsoft.com/en-us/azure/static-web-apps/overview).
+The project here is a typical React SPA (Single-Page App) written in TypeScript and intended to be deployed as an [Azure Static Web App](https://docs.microsoft.com/en-us/azure/static-web-apps/overview).
 
 ## Live Demo
 
