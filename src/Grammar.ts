@@ -69,8 +69,8 @@ export const FullGrammar = {
 
             'participant (.+)': 'participant $1',
             'actor (.+)': 'actor $1',
-            '(.+) sends (.+) a message\.? ?(.*)': '$1 ->> $2: $3',
-            '(.+) responds to (.+) with a message\.? ?(.*)': '$1 -->> $2: $3',
+            '(.+) sends (.+) a message.? ?(.*)': '$1 ->> $2: $3',
+            '(.+) responds to (.+) with a message.? ?(.*)': '$1 -->> $2: $3',
             'deactivate (.+)': 'deactivate $1',
             'activate (.+)': 'activate $1',
 
