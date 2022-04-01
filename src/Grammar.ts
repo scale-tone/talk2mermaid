@@ -75,7 +75,7 @@ export const FullGrammar = {
             'activate (.+)': 'activate $1',
 
             'loop end': 'end',
-            'loop (.+)': '$1',
+            'loop (.+)': 'loop $1',
 
             'if end': 'end',
             'if (.+)': 'alt $1',
