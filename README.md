@@ -50,3 +50,19 @@ https://green-dune-06f281403.1.azurestaticapps.net/
 
 
 ### Sample phrases for a Sequence Diagram.
+
+  * **'Alice sends Bob a message: "Hello"'**: 
+
+     <img src="https://user-images.githubusercontent.com/5447190/161321128-8cda788f-bbc6-4f4b-9a74-0a71e8ed49d1.png" width=300px/>
+
+  * **'Bob responds to Alice with a message: "Goodbye"'**: 
+
+     <img src="https://user-images.githubusercontent.com/5447190/161321372-5f983ea7-41b4-4bc7-ba0a-a496102b0fb6.png" width=300px/>
+
+  * **'Actor Charlie'** (defines a human-shaped participant): 
+
+     <img src="https://user-images.githubusercontent.com/5447190/161321586-0e31cfdd-476e-4205-8815-1118f0c4e7b7.png" width=200px/>
+     
+  * **'Loop NonStop, Charlie sends Charlie a message: "Thinking", Loop End'** (defines a message to self wrapped with a loop): 
+
+     <img src="https://user-images.githubusercontent.com/5447190/161322405-f2deb073-3baf-4a60-9e39-9ffd27b72a9d.png" width=200px/>
