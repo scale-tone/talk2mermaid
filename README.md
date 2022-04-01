@@ -9,6 +9,8 @@ Today there are many beautiful tools and libraries, that implement the principle
 This PoC takes a step further and, instead of typing the code of your diagram, it allows to **pronounce** it in plain English, line-by-line. Then it converts your phrases into [Mermaid](https://github.com/mermaid-js/mermaid) code, and then the code is rendered in form of a diagram.
 [Azure Cognitive Services Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-to-text) is used to recognize the speech.
 
+The code is a typical React SPA (Single-Page App) written in TypeScript and intended to be deployed as an [Azure Static Web App](https://docs.microsoft.com/en-us/azure/static-web-apps/overview).
+
 ## Live Demo
 
 https://green-dune-06f281403.1.azurestaticapps.net/
@@ -89,6 +91,6 @@ https://green-dune-06f281403.1.azurestaticapps.net/
 2. Create an Azure Static Web App instance and deploy your cloned code there with [any of the approaches described here](https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=react).
 3. Configure `CognitiveServicesSubscriptionKey` and `CognitiveServicesRegion` settings for your Static Web Apps instance:
 
-  <img src="https://user-images.githubusercontent.com/5447190/161324274-90c22da8-6bdc-4819-8063-fceb18e157fd.png" width=400px/>
+  <img src="https://user-images.githubusercontent.com/5447190/161324274-90c22da8-6bdc-4819-8063-fceb18e157fd.png" width=600px/>
 
 4. Navigate to the root page of your Static Web Apps instance.
