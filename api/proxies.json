@@ -1,4 +1,17 @@
 {
   "$schema": "http://json.schemastore.org/proxies",
-  "proxies": {}
+  "proxies": {
+    "configScript": {
+      "matchCondition": {
+        "methods": [
+          "GET"
+        ],
+        "route": "/api/config-script"
+      },
+      "responseOverrides": {
+        "response.body": "const ServerSideConfig = { CognitiveServicesSubscriptionKey: '%CognitiveServicesSubscriptionKey%', CognitiveServicesRegion: '%CognitiveServicesRegion%' }",
+        "response.headers.Content-Type": "application/javascript; charset=UTF-8"
+      }
+    }
+  }
 }

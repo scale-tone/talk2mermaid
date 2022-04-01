@@ -25,6 +25,13 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+    <!-- 
+        The easiest way to include some server-side configuration parameters. 
+        This script is produced by a dedicated Function Proxy. See proxies.json file.
+    -->
+    <script src="%REACT_APP_BACKEND_BASE_URI%/config-script"></script>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

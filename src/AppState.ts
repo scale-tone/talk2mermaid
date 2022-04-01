@@ -2,6 +2,7 @@ import mermaid from 'mermaid';
 import * as SpeechSDK from 'microsoft-cognitiveservices-speech-sdk';
 
 import { DiagramGrammar, FullGrammar } from './Grammar';
+import { GetServerSideConfig } from './ServerSideConfig';
 
 export class AppState {
 
@@ -21,10 +22,10 @@ export class AppState {
             startOnLoad: true
         });
 
-        const speechConfig = SpeechSDK.SpeechConfig.fromSubscription(
-            process.env.REACT_APP_COGNITIVE_SERVICES_SUBSCRIPTION_KEY!,
-            process.env.REACT_APP_COGNITIVE_SERVICES_REGION!
-        );
+        // This config comes from Application Settings (served by a proxy in /api project)
+        const config = GetServerSideConfig();
+
+        const speechConfig = SpeechSDK.SpeechConfig.fromSubscription(config.CognitiveServicesSubscriptionKey, config.CognitiveServicesRegion);
         
         speechConfig.speechRecognitionLanguage = 'en-US';
 
