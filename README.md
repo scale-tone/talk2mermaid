@@ -69,7 +69,7 @@ https://green-dune-06f281403.1.azurestaticapps.net/
 
      <img src="https://user-images.githubusercontent.com/5447190/161322405-f2deb073-3baf-4a60-9e39-9ffd27b72a9d.png" width=200px/>
 
-## How run locally
+## How to run locally
 
 1. Clone the sources onto your devbox.
 2. Get yourself an [Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-to-text) instance.
@@ -85,7 +85,7 @@ https://green-dune-06f281403.1.azurestaticapps.net/
     The code will be compiled and started at http://localhost:3000. A browser tab with that page should open up automatically, but if not, then navigate to http://localhost:3000 with your browser.
 
 
-## How run deploy to Azure
+## How to deploy to Azure
 
 1. Fork this repo (cloning is not enough, because Static Web Apps deployment process needs write access to your GitHub repo).
 2. Create an Azure Static Web App instance and deploy your cloned code there with [any of the approaches described here](https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=react).
