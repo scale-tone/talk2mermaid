@@ -69,6 +69,11 @@ https://green-dune-06f281403.1.azurestaticapps.net/
 
      <img src="https://user-images.githubusercontent.com/5447190/161322405-f2deb073-3baf-4a60-9e39-9ffd27b72a9d.png" width=200px/>
 
+### General phrases.
+
+  * **'Cancel'** - removes the last code line.
+  * **'Cleanup'** - removes all the diagram code.
+  
 ## How to run locally
 
 1. Clone the sources onto your devbox.
